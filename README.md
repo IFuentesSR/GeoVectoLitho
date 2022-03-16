@@ -9,13 +9,13 @@ Code associated with the open access publication entitled [3D lithological mappi
 
 ## About
 
-The Scripts correspond to python scripts that can be used as examples to create lithological maps.
+The Scripts correspond to python scripts that can be used as examples to create lithological maps. Among the scripts there are functions for resampling the data, the generation of regular grids, training a multilayer perceptron neural network to classify word embeddings into lithological probabilities and classes, among others. 
 
 <p align="center">
   <img src="workflow.jpg" alt="time_series" width="500">
 </p>
 
-These can be calculated from hydrometeorological gridded data stored in GEE, including CHIRPS for rainfall, a combination of variables to calculate evapotranspiration from ERA5 and FLDAS, NDVI from AVHRR and MODIS, and runoff from ERA5. However, other datasets can also be used. Trends and average drought characteristic functions can be found in the gamma distribution file, and may be applied to other distribution/indices after slight modifications. 
+Additionally, two scripts are used for plotting the lithological classes and the uncertainty associated using voxels.
 
 <p align="center">
   <img src="litho.jpg" alt="average" width="800">
