@@ -132,7 +132,7 @@ def retrieve_predictions(classifier, x):
     '''Function that retrieves lithological classes using the trained classifier
     Inputs:
         -classifier: trained MLP classifier
-        -x: numpy array containing embbedings
+        -x: numpy array containing embeddings
     Outputs:
         -codes_pred: numpy array containing lithological classes predicted'''
     preds = classifier.predict(x, verbose=0)
